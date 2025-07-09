@@ -11,6 +11,7 @@ import {
   FaDocker,
 } from "react-icons/fa";
 import { GrVirtualMachine } from "react-icons/gr";
+import { SiFastapi } from "react-icons/si";
 
 import store1 from "./assets/Store1.png";
 import Cooktails from "./assets/Cooktails.png";
@@ -82,7 +83,7 @@ export const databasesTools = [
   {
     id: nanoid(),
     title: "FastApi",
-    icon: <SiTypescript className="h-16 w-16 text-pink-500" />,
+    icon: <SiFastapi className="h-16 w-16 text-pink-500" />,
   },
   {
     id: nanoid(),
@@ -129,51 +130,6 @@ export const databasesTools = [
     id: nanoid(),
     title: "DevTools",
     icon: <BiLogoDevTo className="h-16 w-16 text-pink-500" />,
-  },
-];
-
-export const skills = [
-  {
-    id: nanoid(),
-    title: "HTML&CSS",
-    icon: <FaHtml5 className="h-16 w-16 text-pink-500" />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
-  },
-  {
-    id: nanoid(),
-    title: "Javascript",
-    icon: <FaJs className="h-16 w-16 text-pink-500" />,
-    text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
-  },
-  {
-    id: nanoid(),
-    title: "React",
-    icon: <FaReact className="h-16 w-16 text-pink-500" />,
-    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
-  },
-  {
-    id: nanoid(),
-    title: "Python",
-    icon: <FaPython className="h-16 w-16 text-pink-500" />,
-    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
-  },
-  {
-    id: nanoid(),
-    title: "Node.JS",
-    icon: <FaNode className="h-16 w-16 text-pink-500" />,
-    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
-  },
-  {
-    id: nanoid(),
-    title: "Next.JS",
-    icon: <SiNextdotjs className="h-16 w-16 text-pink-500" />,
-    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
-  },
-  {
-    id: nanoid(),
-    title: "Typescript",
-    icon: <SiTypescript className="h-16 w-16 text-pink-500" />,
-    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
   },
 ];
 
