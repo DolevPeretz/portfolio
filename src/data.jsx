@@ -148,7 +148,7 @@ export const projects = [
     url: "https://cocktaildolev.netlify.app/",
     github: "https://github.com/DolevPeretz/MixMaster",
     title: "Cooktails",
-    text: "🎉 MixMaster – אפליקציית קוקטיילים שבניתי ב-React!🔍 חיפוש מתכונים בזמן אמת דרך TheCocktailDB API🧠 השתמשתי ב-React Router, React Query ו-Styled Components חוויית משתמש אינטראקטיבית עם טופס ניוזלטר וניהול טעינה חכם",
+    text: "🎉 MixMaster – A cocktail application I built using React!🔍 Real-time recipe search via TheCocktailDB API🧠 Built with React Router, React Query, and Styled Components for an interactive user experience, including a newsletter form and smart loading management.",
   },
 
   {
