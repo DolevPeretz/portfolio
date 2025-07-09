@@ -30,7 +30,7 @@ const Hero = () => {
             <a href="https://www.linkedin.com/in/dolev-peretz/">
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="tel:0501234567">
+            <a href="tel:0509005190">
               <FaPhoneSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
             <a href="mailto:dolevop@gmail.com">
