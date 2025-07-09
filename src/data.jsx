@@ -8,6 +8,7 @@ import {
   FaJs,
   FaReact,
   FaGitSquare,
+  FaDocker,
 } from "react-icons/fa";
 import { GrVirtualMachine } from "react-icons/gr";
 
@@ -106,7 +107,7 @@ export const databasesTools = [
   {
     id: nanoid(),
     title: "Docker",
-    icon: <SiPrisma className="h-16 w-16 text-pink-500" />,
+    icon: <FaDocker className="h-16 w-16 text-pink-500" />,
   },
   {
     id: nanoid(),

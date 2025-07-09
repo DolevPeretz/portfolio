@@ -1,7 +1,7 @@
 import heroImg from "../assets/hero.svg";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import selfimg from "../assets/self.jpeg";
+import selfimg from "../assets/self.png";
 import { FaPhoneSquare, FaMailBulk } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 
@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
         </article>
         <article className="hidden md:block">
-          <img src={selfimg} className="h-80 lg:h-96" />
+          <img src={selfimg} className="h-80 lg:h-96 rounded-2xl" />
         </article>
       </div>
     </div>
