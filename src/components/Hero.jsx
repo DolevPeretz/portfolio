@@ -15,7 +15,7 @@ const Hero = () => {
             Full-Stack Developer
           </p>
           <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
-            Softwer Engineering- Cum Laude
+            Software Engineering- Cum Laude
           </p>
           <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
             specialization in Data Science.
