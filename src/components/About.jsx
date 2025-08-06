@@ -5,6 +5,16 @@ const About = () => {
     <section className="bg-white py-20" id="about">
       <div className="align-element grid md:grid-cols-1 items-center gap-16">
         <article>
+          <SectionTitle text="Profile " />
+          <p className="text-slate-600 mt-8 leading-loose">
+            Software engineer with 2 years of industry experience. In addition,
+            I build personal fullstack web projects using Python, React,
+            Next.js,Nest.js, TypeScript, Python, and Node.js. I’m currently
+            looking for a full-time role where I can grow and contribute as a
+            developer. my portfolio
+          </p>
+        </article>
+        <article>
           <SectionTitle text="One-Dicomano | Developer & Implementer " />
           <p className="text-slate-600 mt-8 leading-loose">
             Design and creation of databases, including developing

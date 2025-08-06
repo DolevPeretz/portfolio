@@ -12,6 +12,9 @@ import {
 } from "react-icons/fa";
 import { GrVirtualMachine } from "react-icons/gr";
 import { SiFastapi } from "react-icons/si";
+// import { RiNextjsFill } from "react-icons/ri";
+
+import { SiNestjs } from "react-icons/si";
 
 import store1 from "./assets/Store1.png";
 import Cooktails from "./assets/Cooktails.png";
@@ -57,6 +60,21 @@ export const frontend = [
   },
 ];
 export const backend = [
+  {
+    id: nanoid(),
+    title: "Nest.js",
+    icon: <SiNestjs className="h-16 w-16 text-pink-500" />,
+  },
+  {
+    id: nanoid(),
+    title: "Next.js",
+    icon: <SiNextdotjs className="h-16 w-16 text-pink-500" />,
+  },
+  {
+    id: nanoid(),
+    title: "Node.js",
+    icon: <FaNode className="h-16 w-16 text-pink-500" />,
+  },
   {
     id: nanoid(),
     title: "Python",
